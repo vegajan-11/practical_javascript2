@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthy Piks</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Box Icon Link for Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header & Navbar Section -->
+    <header>
+      <nav>
+        <div class="nav_logo">
+          <a href="#">
+            <img src="images/coffee_logo.png" alt="Coffee Logo" />
+            <h2>Healthy Piks</h2>
+          </a>
+        </div>
+
+        <input type="checkbox" id="click" />
+        <label for="click">
+          <i class="menu_btn bx bx-menu"></i>
+          <i class="close_btn bx bx-x"></i>
+        </label>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#service">Best Sellers</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero_section">
+      <div class="section_container">
+        <div class="hero_container">
+          <div class="text_section">
+            <h2>Fresh and Healthy Drinks</h2>
+            <h3>Nature's Refreshment: Boost Your Health with Every Sip</h3>
+            <p>
+              Indulge in the goodness of nature with our refreshing fruit and vegetable drinks. Healthy, delicious and perfect for any occasion.
+            </p>
+
+            <div class="hero_section_button">
+              <button class="button">Try Now</button>
+            </div>
+          </div>
+
+          <div class="image_section">
+            <img src="images/front-fruit.png" alt="fruitjuices"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="service">
+      <h2 class="section_title">Best Sellers</h2>
+      <div id = "dialog-overlay" class="dialog-overlay">
+        <div class ="dialog-container">
+        <div id = 'dialogb' class="dialog">
+          <div class="dialog-description">
+          <h2 id = 'fruitTitle' class ="fruit-title">Dialog Title</h2> 
+          <p id ='fruitDescription' class = 'fruit-description'>This is the dialog.</p>
+        </div>
+          <img src="images/banana_fruit.png" alt="banana" class = "fruit-show"id = "fruit-image-placeholder">
+         
+          
+        </div>
+        <button id ="closeButton">Close</button>
+      </div>
+      </div>
+      <div class="section_container">
+        <div class="juice_section_container">
+          <div class="fruit_juices_container">
+            <div class="box_juice" id = 'banana'>
+              <img src="images/banana.png" alt="banana_juice" class="fruitjuices"/>
+              <h3 class="juice_name">Banana</h3>
+             
+            </div>
+            <div class="box_juice" id = "orange">
+              <img src="images/orange.png" alt="orange_juice" class="fruitjuices"/>
+              <h3 class="juice_name">Orange</h3>
+            </div>
+            <div class="box_juice" id = "melon">
+              <img src="images/melon.png" alt="pineapple" class="fruitjuices"/>
+              <h3 class="juice_name">Melon</h3>
+            </div>
+            <div class="box_juice" id = "carrot">
+              <img src="images/carrot.png" alt="carrot_juice" class="fruitjuices"/>
+              <h3 class="juice_name">Carrot</h3>
+            </div>
+            <div class="box_juice" id = "lemon">
+              <img src="images/lemon.png" alt="lemon_juice" class="fruitjuices"/>
+              <h3 class="juice_name">Lemon</h3>
+            </div>
+          </div>
+          <div class="fruit_juices_container">
+            <div class="box_juice" id = "apple">
+            <img src="images/apple.png" alt="tomato_juice" class="fruitjuices"/>
+            <h3 class="juice_name">Apple</h3>
+            </div>
+            <div class="box_juice" id = "avocado">
+            <img src="images/avocado.png" alt="avocado_juice" class="fruitjuices"/>
+            <h3 class="juice_name">Avocado</h3>
+          </div>
+            <div class="box_juice" id = "cucumber">
+            <img src="images/cucumber.png" alt="cucumber" class="fruitjuices"/>
+            <h3 class="juice_name">Cucumber</h3>
+          </div>
+            <div class="box_juice" id = "mango">
+            <img src="images/mango.png" alt="mango_juice" class="fruitjuices"/>
+            <h3 class="juice_name">Mango</h3>
+          </div>
+            <div class="box_juice" id = "pineapple">
+              <img src="images/pineapple.png" alt="lemon_juice" class="fruitjuices"/>
+              <h3 class="juice_name">Pineapple</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+      <h2 class="section_title">Gallery</h2>
+      <div class="section_container">
+        <div class="gallery_container">
+          <div class="gallery_items">
+            <iframe width="840" height="472.5" src="https://www.youtube.com/embed/a20kjWAYp6I?si=H2uzbwF2N5xZpbQR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="section_title">Contact Us</h2>
+      <div class="section_container">
+        <div class="contact_container">
+          <div class="contact_form">
+            <form action="#">
+              <div class="field">
+                <label for="Name">Full Name</label>
+                <input type="text" id="Name" placeholder="Your Name" required />
+              </div>
+              <div class="field">
+                <label for="email">Your Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="number">Your Number</label>
+                <input
+                  type="number"
+                  id="number"
+                  placeholder="Your Contact Number"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="textarea">Textarea</label>
+                <textarea
+                  name="textarea"
+                  id="textarea"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+
+              <button class="button" id="submit">Submit</button>
+            </form>
+          </div>
+
+          <div class="contact_text">
+            <div class="contact_items">
+              <i class="bx bx-current-location"></i>
+              <div class="contact_details">
+                <h3>Our Location</h3>
+                <p>Level 2 S&P North Building, Nancayasan, Urdaneta City, Philippines</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-envelope"></i>
+              <div class="contact_details">
+                <h3>General Enquries</h3>
+                <p>strongtowergym092gmail.com</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-phone-call"></i>
+              <div class="contact_details">
+                <h3>Call Us</h3>
+                <p>+63 908 340 3181</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-time-five"></i>
+              <div class="contact_details">
+                <h3>Our Timing</h3>
+                <p>Mon-Sat : 07:00 AM - 9:00 PM</p>
+                <p>Sun : 02:00 PM - 9:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="section_container">
+        <div class="footer_section">
+          <div class="footer_logo">
+            <a href="index.html">
+              <img src="images/coffee_logo.png" alt="Coffee Logo" />
+              <h2>Healthy Piks</h2>
+            </a>
+          </div>
+
+          <div class="useful_links">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="#service">Best Sellers</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="contact_us">
+            <h3>Contact</h3>
+            <ul>
+              <li>
+                <i class="bx bx-current-location"></i>
+                <span>Level 2 S&P North Building, Nancayasan, Urdaneta City, Philippines</span>
+              </li>
+              <li>
+                <i class="bx bxs-phone-call"></i> <span>+63 908 340 3181</span>
+              </li>
+              <li>
+                <i class="bx bxs-time-five"></i>
+                <span>Mon-Sat : 07:00 AM - 9:00 PM</span>
+                <span>Sun : 02:00 PM - 9:00 PM</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="follow_us">
+            <h3>Follow</h3>
+            <i class="bx bxl-facebook-circle"></i>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-instagram-alt"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src ='js/script.js'></script>
+  </body>
+</html>
