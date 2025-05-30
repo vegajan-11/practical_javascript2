@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthy Piks</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="customizer.css" />
+    <!-- Box Icon Link for Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header & Navbar Section -->
+    <header>
+      <nav>
+        <div class="nav_logo">
+          <a href="#">
+            <img src="images/coffee_logo.png" alt="Coffee Logo" />
+            <h2>Healthy Piks</h2>
+          </a>
+        </div>
+
+        <input type="checkbox" id="click" />
+        <label for="click">
+          <i class="menu_btn bx bx-menu"></i>
+          <i class="close_btn bx bx-x"></i>
+        </label>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+         
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services" id="service">
+      <h2 class="section_title">Pick your fruits</h2>
+     
+      <div class="section_container">
+        <div class="juice_section_container">
+          <div class="fruit_juices_container">
+            <div class="box_fruit">
+              <img src="images/banana_fruit.png" alt="banana_juice" class="fruitjuices"/>
+               <h3 class="juice_name">Banana</h3>
+              <div class = "counter-control">
+                <button class = "counter-button" id = "bananaDecrementButton">-</button>
+                <h3 class="fruit-counter" id="bananaCounter">0</h3>
+                <button class = "counter-button" id = "bananaIncrementButton">+</button>
+              </div>
+            </div>
+            <div class="box_fruit">
+              <img src="images/orange_fruit.png" alt="orange_juice" class="fruitjuices"/>
+               <h3 class="juice_name">Orange</h3>
+              <div class = "counter-control">
+                <button class = "counter-button" id = "orangeDecrementButton">-</button>
+                <h3 class="fruit-counter" id="orangeCounter">0</h3>
+                <button class = "counter-button" id = "orangeIncrementButton">+</button>
+              </div>
+            </div>
+            <div class="box_fruit">
+              <img src="images/melon_fruit.png" alt="pineapple" class="fruitjuices"/>
+              <h3 class="juice_name">Melon</h3>
+              <div class = "counter-control">
+                <button class = "counter-button" id = "melonDecrementButton">-</button>
+                <h3 class="fruit-counter" id="melonCounter">0</h3>
+                <button class = "counter-button" id = "melonIncrementButton">+</button>
+              </div>
+            </div>
+            <div class="box_fruit">
+              <img src="images/carrot_fruit.png" alt="carrot_juice" class="fruitjuices"/>
+              <h3 class="juice_name">Carrot</h3>
+              <div class = "counter-control">
+                <button class = "counter-button" id = "carrotDecrementButton">-</button>
+                <h3 class="fruit-counter" id="carrotCounter">0</h3>
+                <button class = "counter-button" id = "carrotIncrementButton">+</button>
+              </div>
+            </div>
+            <div class="box_fruit" >
+              <img src="images/lemon_fruit.png" alt="lemon_juice" class="fruitjuices"/>
+              <h3 class="juice_name">Lemon</h3>
+              <div class = "counter-control">
+                <button class = "counter-button" id = "lemonDecrementButton">-</button>
+                <h3 class="fruit-counter" id="lemonCounter">0</h3>
+                <button class = "counter-button" id = "lemonIncrementButton">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="fruit_juices_container">
+            <div class="box_fruit">
+            <img src="images/apple_fruit.png" alt="tomato_juice" class="fruitjuices"/>
+            <h3 class="juice_name">Apple</h3>
+            <div class = "counter-control">
+                <button class = "counter-button" id = "appleDecrementButton">-</button>
+                <h3 class="fruit-counter" id="appleCounter">0</h3>
+                <button class = "counter-button" id = "appleIncrementButton">+</button>
+              </div>
+            </div>
+            <div class="box_fruit" >
+            <img src="images/avocado_fruit.png" alt="avocado_juice" class="fruitjuices"/>
+            <h3 class="juice_name">Avocado</h3>
+            <div class = "counter-control">
+                <button class = "counter-button" id = "avocadoDecrementButton">-</button>
+                <h3 class="fruit-counter" id="avocadoCounter">0</h3>
+                <button class = "counter-button" id = "avocadoIncrementButton">+</button>
+              </div>
+          </div>
+            <div class="box_fruit" >
+            <img src="images/cucumber_fruit.png" alt="cucumber" class="fruitjuices"/>
+            <h3 class="juice_name">Cucumber</h3>
+            <div class = "counter-control">
+                <button class = "counter-button" id = "cucumberDecrementButton">-</button>
+                <h3 class="fruit-counter" id="cucumberCounter">0</h3>
+                <button class = "counter-button" id = "cucumberIncrementButton">+</button>
+              </div>
+          </div>
+            <div class="box_fruit" >
+            <img src="images/mango_fruit.png" alt="mango_juice" class="fruitjuices"/>
+            <h3 class="juice_name">Mango</h3>
+            <div class = "counter-control">
+                <button class = "counter-button" id = "mangoDecrementButton">-</button>
+                <h3 class="fruit-counter" id="mangoCounter">0</h3>
+                <button class = "counter-button" id = "mangoIncrementButton">+</button>
+              </div>
+          </div>
+            <div class="box_fruit">
+              <img src="images/pineapple_fruit.png" alt="lemon_juice" class="fruitjuices"/>
+              <h3 class="juice_name">Pineapple</h3>
+               <div class = "counter-control">
+                <button class = "counter-button" id = "pineappleDecrementButton">-</button>
+                <h3 class="fruit-counter" id="pineappleCounter">0</h3>
+                <button class = "counter-button" id = "pineappleIncrementButton">+</button>
+              </div>
+            </div>
+          </div>
+            <div class = "order-detail" id = "orderDetail">
+
+              <div class = "fruit-detail"> 
+                <p>Banana</p>
+                <p id = "bananaCostDisplay">0</p>
+              </div>
+              <div class = "fruit-detail"> 
+                <p>Orange</p>
+                <p id = "orangeCostDisplay">0</p>
+              </div>
+              <div class = "fruit-detail"> 
+                <p >Melon</p>
+                <p id = "melonCostDisplay">0</p>
+              </div>
+              <div class = "fruit-detail"> 
+                <p>Carrot</p>
+                <p id = "carrotCostDisplay">0</p>
+              </div>
+              <div class = "fruit-detail"> 
+                <p>Lemon</p>
+                <p id = "lemonCostDisplay">0</p>
+              </div>
+              <div class = "fruit-detail"> 
+                <p>Apple</p>
+                <p id = "appleCostDisplay">0</p>
+              </div>
+              <div class = "fruit-detail"> 
+                <p>Avocado</p>
+                <p id = "avocadoCostDisplay">0</p>
+              </div>
+              <div class = "fruit-detail"> 
+                <p>Cucumber</p>
+                <p id = "cucumberCostDisplay">0</p>
+              </div>
+              <div class = "fruit-detail"> 
+                <p>Mango</p>
+                <p id = "mangoCostDisplay">0</p>
+              </div>
+              <div class = "fruit-detail"> 
+                <p>Pineapple</p>
+                <p id = "pineappleCostDisplay">0</p>
+              </div>
+            </div>
+
+              <div class = "total-amount-container" >
+                <button class = "detail-toggle" id = "detailToggleButton">Show details</button>
+                <p class = "total-amount" id = 'totalAmount'>0</p>
+              </div>
+              <div class = 'customer-detail'> 
+                <div>
+                  <label for="customerName" class = "customer-label">Customer Name:</label>
+                  <input type="text" class ="customer-name-input" id="customerName" placeholder="Type in your name">
+                </div>
+           
+               <button class = "place-order" id = "placeOrderButton">Place Order</button>
+               <button class = "reset-button" id = "resetButton">Reset</button>
+               </div>
+        </div>
+        
+        
+
+      </div>
+    </section>
+
+   
+    <script src ='js/customizer.js'></script>
+  </body>
+</html>
